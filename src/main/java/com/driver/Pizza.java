@@ -26,7 +26,10 @@ public class Pizza {
         }
         paperBagPrice = 20;
         cheesePrice = 80;
-        totalPrice += basePrice;
+        isCheeseAdded = false;
+        isToppingsAdded = false;
+        isPaperBagAdded = false;
+        totalPrice = basePrice;
         bill = "Base Price Of The Pizza: " + basePrice + "\n";
 
     }
